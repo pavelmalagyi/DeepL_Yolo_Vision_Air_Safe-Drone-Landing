@@ -15,3 +15,20 @@ Ce dépôt contient le code source de notre projet de détection de zone d'atter
 Pour lancer la détection en temps réel avec le modèle entraîné dans la console Anaconda Prompt ou PowerShell (nécessite d'avoir placé le fichier `best.pt` dans le même dossier de ce code) :
 ```bash
 python yolo_detect.py --model best.pt --source usb0 --resolution 1280x720
+
+
+## Setup environnement
+conda create --name VisionAir-env python=3.11 -y
+conda activate VisionAir-env
+pip install label-studio
+label-studio
+
+conditionnement des immages 
+pip install Pillow pillow-heif
+
+
+
+
+extra flux difusion youtube :
+pip install yt-dlp
+yt-dlp -g <lien dif> to get the link a pplacer dans source 
