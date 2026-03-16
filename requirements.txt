@@ -1,0 +1,11 @@
+# --- Cœur du projet (YOLO & Vision) ---
+ultralytics
+opencv-python
+
+# --- Outils de création du dataset (Data Collection) ---
+label-studio
+Pillow
+pillow-heif
+
+# --- Outils annexes (Flux vidéo en direct) ---
+yt-dlp
